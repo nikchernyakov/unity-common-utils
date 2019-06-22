@@ -6,8 +6,10 @@ public class Pool : MonoBehaviour
 
     private readonly List<GameObject> _objects = new List<GameObject>();
     
+    #pragma warning disable 0649
     [SerializeField] private int _objectsCount;
     [SerializeField] private GameObject _objectPrefab;
+    #pragma warning restore 0649
 
     public void Init()
     {
