@@ -6,6 +6,7 @@ using Image = UnityEngine.UI.Image;
 public class SeparableImage : MonoBehaviour
 {
 
+    #pragma warning disable 0649
     [Header("Setup"), SerializeField] private SeparableImageParticle _particlePrefab; 
     [SerializeField] private int _particleCount = 1;
     [SerializeField] private Vector2 _particleMargin;
@@ -13,6 +14,7 @@ public class SeparableImage : MonoBehaviour
     
     [Header("Current"), SerializeField, ReadOnly] private float _particleWidth;
     [SerializeField, ReadOnly] private float _particleHeight;
+    #pragma warning restore 0649
      
     private Image _backgroundImage;
     private Rect _backgroundRect;

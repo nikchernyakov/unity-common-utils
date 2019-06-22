@@ -4,7 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoadingBehaviour : MonoBehaviour
 {
+    #pragma warning disable 0649
     [SerializeField] string sceneName;
+    #pragma warning restore 0649
 
     Coroutine coroutine = null;
 
