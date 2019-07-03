@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
- 
+
 public abstract class DictionaryDrawer<TK, TV> : PropertyDrawer
 {
     private SerializableDictionary<TK, TV> _Dictionary;

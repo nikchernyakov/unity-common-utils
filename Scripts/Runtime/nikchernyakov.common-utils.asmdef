@@ -1,8 +1,6 @@
 {
-    "name": "nikchernyakov.common-utils.editor",
-    "references": [
-        "GUID:89a967daacada4a859945244ffa409af"
-    ],
+    "name": "nikchernyakov.common-utils",
+    "references": [],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],

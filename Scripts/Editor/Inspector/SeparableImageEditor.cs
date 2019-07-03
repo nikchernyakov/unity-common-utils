@@ -7,7 +7,7 @@ public class SeparableImageEditor : UnityEditor.Editor
     public override void OnInspectorGUI()
     {
         DrawDefaultInspector();
-    
+
         var script = (SeparableImage) target;
         if(GUILayout.Button("Init"))
         {

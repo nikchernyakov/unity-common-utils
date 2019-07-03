@@ -1,0 +1,17 @@
+{
+    "name": "nikchernyakov.common-utils.Editor",
+    "references": [
+        "GUID:89a967daacada4a859945244ffa409af"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
